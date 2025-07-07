@@ -1,0 +1,25 @@
+
+# Dossiers générés par dbt
+target/
+dbt_packages/
+logs/
+
+# Environnement virtuel Python
+my-dbt-env/
+
+
+# Fichiers Python temporaires
+__pycache__/
+*.pyc
+
+# Dossiers système Mac/Windows
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks checkpoints (si tu fais du notebook)
+.ipynb_checkpoints/
+
+# Fichiers secrets/locaux
+.env
+*.env
+
